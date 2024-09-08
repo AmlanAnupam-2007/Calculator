@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(204, 185, 170, 0.53);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg");
+}
+#container{
+    width: 1000px;
+    height: 500px;
+    margin:10px auto;
+    top: 25px;
+    position: relative;
+}
+#calculator{
+    width: 250px;
+    height: 360px;
+    background-color: rgb(8, 87, 197);
+    top: 20%;
+    position: fixed;
+    margin:0 auto;
+    border-radius: 10px;
+    left: 40%;
+    
+}
+#keyboard{
+    height: 500px;
+    top:100px;
+    position: relative;
+}
+.operator,.number,.empty{
+    width: 40px;
+    height: 30px;
+    margin:10px;
+    float:left; 
+    border-radius: 15%;
+    border-color:rgb(101, 5, 5) ;
+    font-weight: bold;
+    font-size:15px;
+}
+
+
+
+
