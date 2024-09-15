@@ -12,7 +12,7 @@ body{
 }
 #calculator{
     width: 250px;
-    height: 360px;
+    height: 410px;
     background-color: rgb(8, 87, 197);
     top: 20%;
     position: fixed;
@@ -25,13 +25,15 @@ body{
     height: 500px;
     top:100px;
     position: relative;
+
 }
 .operator,.number,.empty{
     width: 40px;
-    height: 30px;
+    height: 40px;
     margin:10px;
     float:left; 
-    border-radius: 15%;
+    border-radius: 50%;
+    border-width: 0;
     border-color:rgb(101, 5, 5) ;
     font-weight: bold;
     font-size:15px;
